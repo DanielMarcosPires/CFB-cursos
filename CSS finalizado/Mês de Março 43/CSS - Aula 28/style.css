@@ -1,0 +1,13 @@
+section{
+    border: solid 3px #f00;
+    min-width: 500px;
+    display: -moz-flex;
+    flex-wrap: nowrap;
+}
+div{
+    border: solid 1px #0f0;
+    width: 100px;
+}
+.s1{
+    display: flex;
+}

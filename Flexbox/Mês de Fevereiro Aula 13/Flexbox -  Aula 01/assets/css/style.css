@@ -1,0 +1,21 @@
+.container{
+    background: #22236f;
+    border: solid 2px #fff;
+   
+    padding: 5px;
+    text-align: center;
+    margin: 2em auto;
+    width: 50%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container > div{
+    color: #fff;
+    padding: 8px 0;
+    font-weight: bold;
+    border: solid 2px #fff;
+
+}

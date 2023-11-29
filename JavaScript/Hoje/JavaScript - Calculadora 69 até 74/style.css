@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calc{
+    margin: 5em auto;
+    padding: 2px 4px;
+    border: solid 2px #000;
+    background: #ebebeb;
+    width: 200px;
+}
+.nome{
+    width: 100%;
+}
+.div_display{
+    border: solid 2px #000;
+    width: 100%;
+}
+#display{
+    background: #33ff33;
+    box-shadow: inset 0 2px 0 2px #0a330a;
+    transition: .5s;
+    font-weight: bold;
+    padding: 0 8px;
+    text-align: end;
+}
+.div_teclas{
+    display: grid;
+    gap: 8px;
+    grid-template: 
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    '. . . .'
+    ;
+    justify-content: center;
+}
+.tecla{
+    background: gray;
+    border: solid 2px #00000088;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 25px ;
+    text-align: center;
+    margin: 5px 0;
+    width: 40px;
+    height: 40px;
+}
+.tecla:active{
+    background: #000;
+    color: #fff;
+}
+.simbol,.equal{
+    background: #f00000aa;
+    border: solid 2px #f0000022;
+    box-shadow: 0 0 2px #000;
+    font-weight: bold;
+    font-size: 25px ;
+}
+.e{
+    grid-area: e;
+}
+.p{
+    grid-area: p;
+}
+.m{
+    grid-area: m;
+}
+.p{
+    grid-area: p;
+}
+.d{
+    grid-area: d;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: #111;
+    padding: 2em;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center  ;
+}
+header *{
+    color: #fff;
+    font-size: 40px;
+}

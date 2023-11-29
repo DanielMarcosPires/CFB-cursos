@@ -1,0 +1,13 @@
+
+body{
+    background: #111;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20em auto;
+    background: #eee;
+    width: 300px;
+}

@@ -1,0 +1,19 @@
+section{
+    background: #ffe;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+aside{
+    background: #ebebeb;
+}
+aside li{
+    background: tomato;
+    margin: 4px 0;
+}
+@media screen and (max-width:500px) {
+    section{flex-wrap: wrap;}
+    aside{
+        width: 100%;
+    }
+}

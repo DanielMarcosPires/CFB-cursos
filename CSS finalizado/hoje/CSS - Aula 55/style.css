@@ -1,0 +1,12 @@
+html{
+    color: red;
+}
+body{
+    color: #0f0;
+}
+div{
+    color: #ff0;
+}
+p{
+    color: inherit;
+}

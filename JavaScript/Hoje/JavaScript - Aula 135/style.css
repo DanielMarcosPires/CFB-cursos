@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: .2s;
+}
+.caixaDeTexto{
+    background: #666fff;
+    display: inline-block;
+    padding: 6px 8px;
+    width: 400px;
+}
+.caixaDeTextoHeader{
+    display: flex;
+    justify-content: space-around;
+} 
+.caixaDeTextoHeader button{
+    --valor:20px;
+    width: var(--valor);
+    height: var(--valor);
+}
+.caixaDeTextoMain{
+    background: #fff;
+    text-align: center;
+}

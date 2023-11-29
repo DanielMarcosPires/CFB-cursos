@@ -1,0 +1,14 @@
+.d1,.d2,.d3{
+    border: double 20px #000;
+    background: linear-gradient(90deg,#66e6ff,#6666ff);
+    padding: 30px;
+}
+.d1{
+    background-clip: border-box;
+}
+.d2{
+    background-clip: padding-box;
+}
+.d3{
+    background-clip: content-box;
+}

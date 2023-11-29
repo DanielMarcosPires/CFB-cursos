@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90vw;
+    height: 90vh;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background: gainsboro;
+    border: solid 2px #000;
+}
+div p{
+    text-align: center;
+    padding: 8px 0;
+    background: gainsboro;
+    border: solid 2px gray;
+    width: 90%;
+    transition: .5s;
+}
+div:nth-child(2) p{
+    background: #000035;
+    color: white;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px;
+}
+.selecionado{
+    background: red;
+}

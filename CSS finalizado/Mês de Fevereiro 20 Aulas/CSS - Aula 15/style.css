@@ -1,0 +1,10 @@
+h1{
+    text-shadow: 0 0 4px #000,0 2px 4px #0f0,0 -2px 4px #00f;
+    box-shadow: 0 0 4px #000;
+    text-align: center;
+    margin: 0 auto;
+    color: #f00;
+    font-size: 40px;
+    position: relative;
+    width: 100px;
+}

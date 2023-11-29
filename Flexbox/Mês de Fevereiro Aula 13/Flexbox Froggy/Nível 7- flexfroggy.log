@@ -1,0 +1,7 @@
+Nível 7 - (Daniel Marcos Pires)
+
+#pond {
+  display: flex;
+  justify-content:space-around;
+  align-items:end;  
+}

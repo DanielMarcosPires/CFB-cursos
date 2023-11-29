@@ -1,0 +1,9 @@
+.curso{
+    background: gray;
+    border: solid black;
+    color: #fff;
+    padding: 8px;
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+}

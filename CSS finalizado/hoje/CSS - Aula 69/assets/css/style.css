@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+.item{
+    background: #0af;
+    font-weight: bold;
+    border: solid 1px #000;
+    text-align: center;
+    padding: 8px;
+}

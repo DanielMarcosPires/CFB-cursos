@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    gap: 8px;
+}
+a{
+    background: #6666ff;;
+    text-decoration: none;
+    color: #1c1c4a;
+    font-size: 20px;
+    padding: 4px 8px;
+}
+a:hover{
+    background: #8585f7;;
+}

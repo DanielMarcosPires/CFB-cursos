@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    
+    grid-template: 
+    ". . ."
+    ". . ."
+    ". . ."
+    ;
+    gap: 8px;
+}
+.item:nth-child(1){
+    grid-column: 1 / span 2;
+}
+.item{
+    background: #0af;
+}

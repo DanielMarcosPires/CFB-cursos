@@ -1,0 +1,33 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.olhos{
+    display: flex;
+    justify-content: center;
+    background: #000;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+}
+.olho{
+    overflow: hidden;
+    --valor:200px;
+    width: var(--valor);
+    position: relative;
+    height: var(--valor);
+    border-radius: 50%;
+    background: #fff;
+}
+span{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    border-radius: 50%;
+    background: #00f;
+    --valor2:100px;
+    width: var(--valor2);
+    height: var(--valor2);
+}

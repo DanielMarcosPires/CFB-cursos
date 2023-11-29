@@ -1,0 +1,17 @@
+body{
+    background: #808080;
+}
+ul,ol{
+    list-style: decimal-leading-zero inside;
+    font-size: 45px;
+}
+li{
+    border: solid 1px;
+    display: table-cell;
+    padding: 0 2em;
+    background: #4f0000;
+    color: #fff;
+}
+li:hover{
+    background: red;
+}

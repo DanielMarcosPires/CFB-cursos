@@ -1,0 +1,35 @@
+input{
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    box-shadow: 0 0 10px #000;
+    padding: 8px 5px;
+    width: 100%;
+}
+input[type='radio']{
+    display: inline;
+}
+input[disabled]{
+    filter: brightness(60%);
+}
+label{
+    display: block;
+}
+.criarCarro{
+    padding: 24px;
+}
+.campoForm{
+    margin: 8px 0;
+    width: 200px;
+}
+.radio{
+    display: flex;
+    align-items: center;
+}
+p{
+    display: inline;
+}
+button{
+    padding: 8px 0;
+    width: 100%;
+}

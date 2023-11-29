@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.relogio {
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6666666667);
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}
+.relogiotelaDoRelogio {
+  text-align: center;
+  width: 100%;
+}
+.relogiotelaDoRelogio__Tempo {
+  background: #000;
+  height: 50px;
+  font-size: 20px;
+  margin: 8px 0;
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.relogio .controles button {
+  border: none;
+  outline: none;
+  background: gray;
+  color: #fff;
+  height: 50px;
+  width: 80px;
+  margin: 8px 0;
+}/*# sourceMappingURL=style.css.map */

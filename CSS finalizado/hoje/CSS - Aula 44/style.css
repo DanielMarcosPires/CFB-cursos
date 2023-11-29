@@ -1,0 +1,8 @@
+p{
+    width: 50%;
+    columns: 4;
+    -webkit-columns: 2;
+    -moz-columns:2;
+    column-gap: 5;
+    column-rule: 10px solid #000;
+}

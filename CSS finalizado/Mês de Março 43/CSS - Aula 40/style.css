@@ -1,0 +1,13 @@
+p{
+    border: solid 2px #000;
+    width: 300px;
+    transition: width 2s, height 2s, background-color 2s,color 2s;
+    transition-timing-function: linear;
+    transition-delay:0s ;
+}
+p:hover{
+    width: 800px;
+    height: 200px;
+    background: red;
+    color: #fff;
+}

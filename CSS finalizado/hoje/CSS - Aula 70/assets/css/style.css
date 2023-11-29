@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template: 
+    ". . ."
+    ". . ."
+    ". . ."
+    ;
+    gap: 8px;a
+}
+.item{
+    background: #0af;
+}

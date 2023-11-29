@@ -1,0 +1,32 @@
+.controles{
+    display: grid;
+    grid:
+     ". . ."
+     ". . ."
+     ". . .";
+   justify-content: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+.controles li{
+    --tamanho:40px;
+
+    align-items: center;
+    background: gray;
+    color: #fff;
+  
+    display: flex;
+    
+    justify-content: center;
+    
+    padding: 1.2em;
+
+    font-size: calc(var(--tamanho)/2); 
+    width: var(--tamanho); 
+    height: var(--tamanho); 
+    transition: .2s;
+}
+.controles li:hover{
+    background: #fff;
+    color: #000;
+}

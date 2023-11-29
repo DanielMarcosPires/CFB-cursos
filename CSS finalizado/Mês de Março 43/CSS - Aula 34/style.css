@@ -1,0 +1,14 @@
+img{
+    border: solid 1px;
+}
+.img1{
+    float: left;
+    margin: 8px;
+}
+.img2{
+    float: right;
+}
+
+.fix{
+    clear: left;
+}

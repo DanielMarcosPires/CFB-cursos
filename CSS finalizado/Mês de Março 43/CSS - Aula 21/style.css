@@ -1,0 +1,12 @@
+.dv1{
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 8px;
+    width: 200px;
+    height: 200px;
+    /* transform: scale(1); */
+    /* transform: skew(60deg); */
+    /* transform: matrix(2,0,0,2,0,0); */
+    /* transform-origin:100% 100% ; */
+    transition: .5s;
+}

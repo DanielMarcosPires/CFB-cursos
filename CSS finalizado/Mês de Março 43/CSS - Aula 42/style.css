@@ -1,0 +1,14 @@
+
+@keyframes anim {
+    from{
+        width: 300px;
+    }to{
+        width: 500px;
+    }
+}
+p{
+    border: solid 1px #000;
+    border-radius: 10px;
+    animation: anim 3s linear infinite;
+    width: 300px;
+}

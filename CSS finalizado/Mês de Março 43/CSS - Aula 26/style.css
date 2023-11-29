@@ -1,0 +1,18 @@
+div,span{
+    border: solid 1px #000;
+    margin: 8px;
+    width: 200px;
+    height: 200px;
+}
+.d1{/*div*/
+    display: inline;
+}
+.d2{/*span*/
+    display: inline-block;
+}
+.d3{/*div*/
+    display: inline
+}
+.d4{/*span*/
+    display: inline-block;
+}

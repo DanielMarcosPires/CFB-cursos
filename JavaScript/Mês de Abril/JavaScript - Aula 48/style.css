@@ -1,0 +1,13 @@
+#caixaArray{
+    border: solid 2px tomato;
+    background: #ff000081;
+}
+.pesquisar{
+    background: #00ff008e;
+    border: solid 2px #0f0;
+    padding: 1em 0;
+}
+.resultado{
+    background: rgba(0, 0, 255, 0.514);
+    border: solid 2px #00f;
+}

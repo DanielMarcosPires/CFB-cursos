@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="criarCarro" class="criarCarro">
+        <div class="campoForm">
+            <label for="nome">Nome:</label>
+            <input type="text" name="f_nome" id="nome">
+        </div>
+        <div class="campoForm">
+            <label for="Blindagem">Blindagem:</label>
+            <input type="text" name="f_Blindagem" id="I_Blindagem">
+        </div>
+        <div class="campoForm">
+            <label for="portas">Portas:</label>
+            <input type="text" name="f_portas" id="portas">
+        </div>
+        <div class="campoForm">
+            <label for="municao">Munição:</label>
+            <input type="number" name="f_municao" id="municao">
+        </div>
+        <div class="campoForm">
+            <label for="tipo">Tipo:</label>
+            <input type="text" name="f_tipo" id="tipo">
+        </div>
+        <div class="campoForm">
+            <div class="radio">
+                <input class="militar" type="radio" name="f_tipo" value="m" id="tipo">
+                <p>militar</p>
+
+
+            </div>
+        </div>
+        <div class="campoForm">
+            <div class="radio">
+                <input class="normal" type="radio" name="f_tipo" active value="n" id="tipo">
+                <p>normal</p>
+            </div>
+        </div>
+        <div class="campoForm">
+            <button class="btnCarro">
+                Adicionar
+            </button>
+        </div>
+        <div class="carros">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

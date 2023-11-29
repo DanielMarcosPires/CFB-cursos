@@ -1,0 +1,14 @@
+.caixa{
+    border: solid 2px;
+    background: gray;
+    width: 200px;
+}
+.curso{
+    border: solid 1px;
+    background: #fff;
+    margin: 4px 0;
+    padding: 8px 0;
+}
+img{
+    width: 100%;
+}

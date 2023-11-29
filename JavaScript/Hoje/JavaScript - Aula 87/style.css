@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+header{
+    display: inline-flex;
+    justify-content: space-around;
+    background: #eee;
+    border: solid 2px #000;
+    width: 100%;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    background:#fff ;
+    flex-direction: column;
+    padding: 8px 1em;
+    text-align: center;
+    border: solid 1px #000;
+    width: 20%;
+}
+#num_objetos{
+
+}
+header div input{
+    padding: 8px 3px;
+    border: solid 3px;
+    border-radius: 10px;
+}
+header div button{
+    background: #6666ff;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px 0;
+}
+section{
+    position: relative;
+    height: 100vh;
+    min-height: fit-content;
+    min-height: -webkit-fill-content;
+    overflow: hidden;
+    border-radius: 5px;
+    border: solid #000 2px;
+}
+.bola{
+    position: absolute;
+    border-radius: 50%;
+}

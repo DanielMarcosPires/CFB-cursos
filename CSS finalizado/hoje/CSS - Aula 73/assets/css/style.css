@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    
+    grid-template: 
+    "it1 ite1 it4"
+    "it3 it3 it2"
+    "it3 it3 ."
+    ;
+    gap: 8px;
+}
+.item:nth-child(1){
+    grid-column: 1 / span 2;
+}
+.item{
+    background: #0af;
+    height: 50px;
+}
+.it1{
+    grid-area: it1;
+}
+.it2{
+    grid-area: it2;
+}
+.it3{
+    grid-area: it3;
+    height: 100px;
+}
+.it4{
+    grid-area: it4;
+}

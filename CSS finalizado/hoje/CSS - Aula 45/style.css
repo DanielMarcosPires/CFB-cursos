@@ -1,0 +1,8 @@
+p{
+    width: 50%;
+    columns: 4;
+   border: solid 2px #000;
+   border-radius: 10px;
+   resize: both;
+   overflow: auto;
+}

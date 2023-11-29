@@ -1,0 +1,10 @@
+.caixaPai{
+    border: solid 1px #f00;
+    height: 20vh;
+    width: 20vw;
+}
+.caixaFilho{
+    border: solid 1px #0f0;
+    height: 50%;
+    width: 50%;
+}
